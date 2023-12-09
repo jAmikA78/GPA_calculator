@@ -11,8 +11,8 @@ public class Defult_frame extends JFrame implements ActionListener {
     Font font2 = new Font("Arial Black", Font.BOLD, 18);
     Font font3 = new Font("Arial ", Font.BOLD, 12);
     //pictures
-    ImageIcon i1 = new ImageIcon("D:\\projects\\java\\GPA\\src\\background1.jpg");
-    ImageIcon icon = new ImageIcon("D:\\projects\\java\\GPA\\src\\icon.png");
+    ImageIcon i1 = new ImageIcon("src/background1.jpg");
+    ImageIcon icon = new ImageIcon("src/icon.png");
     JLabel background1 = new JLabel("", i1, JLabel.CENTER);
     ;
     JButton backButton = new JButton("<<");
